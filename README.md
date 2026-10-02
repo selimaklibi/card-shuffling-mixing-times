@@ -34,7 +34,7 @@ $\sigma \mapsto \sigma^{-1}$, and the inverse walk is *random-to-top*. After $n$
 "touched cards in order of last touch, then untouched cards in original order", so
 
 $$
-\mu_n(\sigma) = \frac{1}{N!}\sum_{j \ge N - s(\sigma)} \mathbb{P}(D_n = j)\,(N-j)!
+\mu_n(\sigma) = \frac{1}{N!}\sum_{j \ge N - s(\sigma)} \mathbb{P}(D_n = j)\cdot(N-j)!
 $$
 
 where $s(\sigma)$ is the length of the longest bottom block in original order and $D_n$ is the number of distinct
